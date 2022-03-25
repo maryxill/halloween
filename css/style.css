@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    font-family: Oswald, sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 18px;
     padding-left: 10px;
     padding-right: 10px;
@@ -14,12 +14,14 @@ h1 {
     color: #fff;
     font-size: 64px;
     text-transform: uppercase;
-    max-width: 849px;
+    max-width: 900px;
     margin: 0 auto;
     line-height: 1.5;
+    padding-top: 120px;
 }
 
-h1+p {
+
+h1 + p {
     color: #fff;
     text-transform: uppercase;
 }
@@ -36,7 +38,6 @@ h2 {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    font-weight: bold;
 }
 
 .wrapper-gray {
