@@ -155,12 +155,18 @@ h2 {
 .box-contact button {
     background-color: #fff;
     border: none;
-    padding: 15px 20px;
+    padding: 15px 50px;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: #000;
     font-weight: bold;
+}
+
+.zapros-img {
+    position: absolute;
+    margin-left: -30px;
+
 }
 
 .grid {
@@ -235,9 +241,7 @@ h2 {
     height: 100%;
 }
 
-.fb-icon {
-    padding-top: 10px;
-}
+
 
 .box-feedback {
     display: flex;
@@ -245,6 +249,11 @@ h2 {
     align-items: flex-start;
     margin-top: 55px;
     margin-bottom: 123px;
+}
+
+.fb-icon {
+  margin-bottom: -75px;
+  margin-left: 30px;  
 }
 
 .box-feedback>div {
